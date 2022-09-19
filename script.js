@@ -1,4 +1,5 @@
-/* Ejercicio dias de la semana  */
+function diasSemana() {
+ //Ejercicio dias de la semana 
 let diaSemana = prompt("¿Qué día es hoy?");
 switch (diaSemana) {
 case "lunes":
@@ -40,19 +41,23 @@ default:
 
 alert("¡¡No entendí...!! ¿Podrías ingresar el día en minúsculas?");
 
-}
-/* Bucle modificado */
-
-const numeros = ['20', '30', '40', '50', '70'];
-
-for (let i = 0; i < numeros.length; i++) {
-  document.write ("El numero es: " + numeros [i] + "<br>");
 } 
+  
+} 
+function bucleModificado() {
+  //Bucle modificado 
 
-/* Hola mundo */
+for ( i = 20; i <= 70; i++) {
+  document.write ("El numero es: " + i + "<br>");
+}
+}
+
+function holaMundo (){
+  //Hola mundo 
 
 let contador = prompt("Ingrese la cantidad de veces que aparecerá la frase: ");
 while(contador > 0){
     document.write("Hola mundo!! ", contador,"</br>");
     contador = contador -1
 } 
+}
